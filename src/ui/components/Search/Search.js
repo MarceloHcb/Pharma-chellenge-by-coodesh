@@ -29,8 +29,7 @@ export const Search = () => {
         return;
       } else {
         setItems(Ind);
-      }
-      
+      }      
     }
    
   }
@@ -77,8 +76,7 @@ export const Search = () => {
           <MenuItem value={300}>300</MenuItem>
           <MenuItem value={350}>350</MenuItem>
           <MenuItem value={500}>500</MenuItem>
-          <MenuItem value={1000}>1000</MenuItem>
-          <MenuItem value={1500}>1500</MenuItem>
+          <MenuItem value={1000}>1000</MenuItem>         
         </Select>
       </FormControl>
     </Box>

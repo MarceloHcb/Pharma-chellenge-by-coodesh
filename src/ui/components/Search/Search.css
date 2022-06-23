@@ -17,17 +17,22 @@
   font-size: 25px;
   position: absolute;
 }
-.container {
+.container { 
   margin: 10px auto;
   position: relative;
   width: 40%;
 }
 .btn {
   position: absolute;
-  right: 7%;
+  right: 10%;
   color: black;
   border: none;
   background-color: white;
+}
+@media(max-width: 2000px){
+  .btn{
+    right:6%;
+  }
 }
 .back {
   padding: 3px;
@@ -38,4 +43,24 @@
 .form{
  position: absolute;
  right: -15%;  
+}
+@media(max-width: 1400px){
+  .form{
+    right: -45%; 
+  }
+}
+@media(max-width: 600px){
+
+.MdPersonSearch {
+  font-size: 20px;
+}
+.form{
+  top: -210px;
+}
+.inputSearch{
+   width: 300px;
+}
+.btn{
+ right: -40px;
+}
 }
